@@ -69,10 +69,9 @@
     {% if entry.abstract %}
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
     {% endif %}
-    {% if entry.type == "techreport" %}
     {% if entry.arxiv %}
+    {% if entry.type == "techreport" %}
         {{entry.year}} <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a> 
-    {% endif %}
     {% else %}
     {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a> 
