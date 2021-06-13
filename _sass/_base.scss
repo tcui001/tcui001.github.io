@@ -345,7 +345,8 @@ footer.sticky-bottom {
         }
         > em {
           border-bottom: none;
-          font-style: bolder var(--global-theme-color);
+          font-style: bolder;
+          color: var(--global-theme-color);
         }
       }
       .links {
