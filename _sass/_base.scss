@@ -337,15 +337,16 @@ footer.sticky-bottom {
       }
       .author {
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
+          color: var(--global-text-color);
+          border-bottom: 1px dashed;
           &:hover {
               border-bottom-style: solid;
               text-decoration: none;
           }
         }
         > em {
-          border-bottom: 1px solid;
-          font-style: normal;
+          color var(--global-theme-color);
+          font-style: normal var(--global-theme-color);
           font-weight: bolder;
         }
       }
