@@ -59,7 +59,7 @@
         <em>In {{entry.booktitle}}</em>
       {% endif %}
       {% if entry.year %}
-        {entry.year}}
+        {{entry.year}}
       {% endif %}
       </div>
       {% endif %}
@@ -71,7 +71,7 @@
     {% endif %}
     {% if entry.type == "techreport" %}
     {% if entry.arxiv %}
-        {entry.year}} <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a> 
+        {{entry.year}} <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a> 
     {% endif %}
     {% else %}
     {% if entry.arxiv %}
