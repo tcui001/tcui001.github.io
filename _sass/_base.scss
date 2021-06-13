@@ -337,7 +337,7 @@ footer.sticky-bottom {
       }
       .author {
         a {
-          color: var(--global-text-color);
+          font-style: normal;
           border-bottom: 1px dashed;
           &:hover {
               border-bottom-style: solid;
@@ -345,8 +345,8 @@ footer.sticky-bottom {
           }
         }
         > em {
-          color: var(--global-theme-color);
           font-style: normal;
+          color: var(--global-theme-color);
           font-weight: bolder;
         }
       }
