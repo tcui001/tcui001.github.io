@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 3
-description: Infinite-dimensional MCMC
+title: Infinite-dimensional MCMC
+description: 
 img: /assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3
