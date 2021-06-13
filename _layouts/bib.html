@@ -13,9 +13,6 @@
   </div>
 
   <div id="{{entry.key}}" class="col-sm-8">
-    {% if entry.type == "thesis" %}
-      {{reference}}
-    {% else %}
       <div class="title">{{entry.title}}</div>
       <div class="author">
         {% for author in entry.author_array %}
@@ -50,8 +47,6 @@
           {% endif %}
         {% endfor %}
       </div>
-      {% if entry.type == "techreport" %}
-      {% else %}
       <div class="periodical">
       {% if entry.type == "article" %}
         <em>{{entry.journal}}</em>
@@ -67,27 +62,19 @@
       {% if entry.year %}
         {{entry.year}}
       {% endif %}
-      </div>
-      {% endif %}
-    {% endif %}
 
-    <div class="links">
     {% if entry.abstract %}
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
     {% endif %}
+    {% if entry.doi %}
+      <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank">DOI</a>
+    {% endif %}
     {% if entry.arxiv %}
-      {% if entry.type == "techreport" %}
-        {{entry.year}} <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a> 
-      {% else %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a> 
-      {% endif %}
     {% endif %}
     {% if entry.html %}
       <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
     {% endif %}    
-    {% if entry.doi %}
-      <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank">DOI</a>
-    {% endif %}
     {% if entry.pdf %}
       {% if entry.pdf contains '://' %}
       <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
