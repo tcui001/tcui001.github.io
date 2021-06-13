@@ -337,15 +337,15 @@ footer.sticky-bottom {
       }
       .author {
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
+          border-bottom: 1px dashed var(--global-hover-color);
           &:hover {
               border-bottom-style: solid;
               text-decoration: none;
           }
         }
         > em {
-          border-bottom: 1px solid;
-          font-style: normal;
+          border-bottom: none;
+          font-style: bolder var(--global-theme-color);
         }
       }
       .links {
