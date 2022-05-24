@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="https://www.monash.edu/science/schools/school-of-mathematics">School of Mathematics, Monash University</a>. 
+description: <a href="https://www.monash.edu/science/schools/school-of-mathematics">School of Mathematics, Monash University</a> 
 
 profile:
   align: right
