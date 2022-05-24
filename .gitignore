@@ -1,3 +1,9 @@
+# hidden files
 .*
-Gem.lock
+
+# Gem lock
+Gemfile.lock
+
+# site
 _site/
+
