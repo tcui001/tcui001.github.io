@@ -4,9 +4,19 @@ permalink: /teaching/
 title: teaching
 description: Materials for courses you taught. Replace this text with your description.
 nav: true
-nav_order: 2
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+* Computational linear algebra
+  * MTH3320 (Monash)
+  * 2017 S2, 2018 S1, 2019 S1, 2020 S1, 2021 S1
 
-Organize your courses by years, topics, or universities, however you like!
+* Methods of computational mathematics 
+  * MTH5321 (Master of Maths, Monash), MTH5530 (Financial Maths, Monash)
+  * 2018 S1, 2019 S1, 2020 S1, 2021 S1
+  
+* Computational statistical inference: 
+  * MTH5089 (Master of Maths, Monash) MTH5540 (Financial Maths, Monash)
+  * 2018 S1, 2019 S1, 2020 S1, 2021 S1
+
+* Statistical machine learning
+  * 2018, AMSI summer school 
