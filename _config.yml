@@ -160,7 +160,7 @@ plugins:
   - jekyll-target-blank
   - jekyll-twitter-plugin
   - jemoji
-#  - jekyll-remote-theme
+  - jekyll-remote-theme
 
 # Sitemap settings
 defaults:
@@ -312,5 +312,5 @@ medium_zoom:
   version: "1.0.6"
   integrity: "sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM="
 
-# theme: jekyll-theme-cayman\
-# remote_theme: pages-themes/cayman@v0.2.0
+#theme: pages-themes/cayman@v0.2.0 #jekyll-theme-cayman\
+remote_theme: pages-themes/cayman@v0.2.0

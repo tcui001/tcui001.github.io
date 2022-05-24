@@ -16,6 +16,9 @@ group :jekyll_plugins do
     gem 'mini_racer', '~> 0.6.2'
     gem 'unicode_utils'
     gem 'webrick'
+    gem "jekyll-remote-theme"
+    gem "jekyll-seo-tag"
+#    gem "github-pages"
 end
 group :other_plugins do
     gem 'httparty'
