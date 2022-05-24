@@ -32,7 +32,7 @@ rss_icon: true
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 
 # Dimensions
 max_width: 1024px
@@ -235,7 +235,7 @@ filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, select
 imagemagick:
   enabled: true
   widths:
-    - 480
+    - 400 #480
     - 800
     - 1400
   input_directories:
