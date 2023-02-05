@@ -11,7 +11,7 @@ nav: true
 ---
 [preprints](#pre), [journal articles](#journal), [book chapters](#book), and [conference articles](#conf) in reversed chronological order. 
 
-## preprints {#pre}
+### preprints {#pre}
 
 <div class="publications">
 
@@ -21,7 +21,7 @@ nav: true
 
 </div>
 
-## journal articles {#journal}
+### journal articles {#journal}
 
 <div class="publications">
 
@@ -32,7 +32,7 @@ nav: true
 
 </div>
 
-## book chapters {#book}
+### book chapters {#book}
 
 <div class="publications">
 
@@ -43,7 +43,7 @@ nav: true
 
 </div>
 
-## conference articles {#conf}
+### conference articles {#conf}
 
 <div class="publications">
 
