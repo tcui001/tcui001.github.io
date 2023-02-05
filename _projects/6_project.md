@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 6
+title: Software
 description: a project with no image
 img:
 importance: 4

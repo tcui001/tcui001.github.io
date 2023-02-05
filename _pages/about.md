@@ -8,7 +8,7 @@ description:
 
 profile:
   align: right
-  image: tcui.png
+  image: tcui2.jpg
   address: >
     <p>Office 328</p>
     <p>9 Rainforest Walk</p>
@@ -29,7 +29,7 @@ computational mathematics, machine learning, inverse problems, numerical analysi
 * 2015--2016: Senior Research Engineer, ExxonMobil Upstream Research Company
 * 2012--2015: Postdoc Associate, Aerospace Computational Design Laboratory (ACDL), Massachusetts Institute of Technology
 
-**Contact:** firstname(dot)lastname(at)monash(dot)edu 
+**Contact:** tiangang(dot)cui<at>monash(dot)edu 
 
 [comment]: <> With backgrounds in applied mathematics and engineering, my research interest lies in the algorithmic interface between computational mathematics and statistical learning, with a specific My research focuses on advancing foundational computational methodologies for  uncertainty quantification, statistical learning, and inverse problems. focuses on integrating computational mathematics, statistical learning, and mathematical modelling for issuing credible model-based predictions and decisions. I develop scalable statistical inference tools for computational inverse problems and uncertainty quantification. I also develop multilevel methods and model reduction methods that enable the deployment of statistical learning algorithms in large-scale real-world applications such as subsurface flows and geophysics.
 
