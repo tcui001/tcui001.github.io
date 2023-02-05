@@ -14,7 +14,7 @@ DIRT is a MATLAB package that uses functional tensor trains to construct order-p
 
 Download MATLAB code from GitHub [https://github.com/fastfins/ftt.m](https://github.com/fastfins/ftt.m)
 
-References:
+#### References:
 
 {% reference cui2022deep %}
 
@@ -33,7 +33,7 @@ A newer version of the code using fully object-oriented programming is under dev
 
 Download MATLAB code from GitHub [https://github.com/fastfins/fastfins.m](https://github.com/fastfins/fastfins.m)
 
-References:
+#### References:
 
 {% reference cui2014likelihood %}
 
