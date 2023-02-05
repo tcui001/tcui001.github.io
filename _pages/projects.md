@@ -2,7 +2,7 @@
 layout: page
 title: research
 permalink: /projects/
-description:
+description: under construction
 nav: true
 ---
 
