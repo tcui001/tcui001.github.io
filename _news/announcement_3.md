@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 26 Feb 2023
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Co-organizing the [SIAM Conference on Computational Science and Engineering](https://www.siam.org/conferences/cm/conference/cse23) in Amsterdam, The Netherlands.
