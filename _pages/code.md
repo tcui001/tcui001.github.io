@@ -10,15 +10,17 @@ nav: true
  
 ### DIRT: a deep inverse Rosenblatt transport method {#dirt}
 
-DIRT is a MATLAB package that uses functional tensor trains to construct order-preserving, self-reinforced transport maps. A newer version of the code (with significant updates in the interface) will be released in March 2023.
+DIRT is a MATLAB package that uses functional tensor trains to construct order-preserving, self-reinforced transport maps. 
 
-Download MATLAB code from GitHub [https://github.com/fastfins/ftt.m](https://github.com/fastfins/ftt.m)
+Download MATLAB code from [deep-tensor](https://github.com/DeepTransport/deep-tensor). Help files will be updated in May. 
+
+Examples will be released under [deep-tensor-examples](https://github.com/DeepTransport/deep-tensor-examples) in May.
 
 #### References:
 
 {% reference cui2022deep %}
 
-{% reference cui2021conditional %}
+{% reference cui2023scalable %}
 
 {% reference cui2023deep %}
 
@@ -31,7 +33,7 @@ Fast Forward and Inverse problems solver (FastFIns) is a set of MATLAB code for 
 
 A newer version of the code using fully object-oriented programming is under development. 
 
-Download MATLAB code from GitHub [https://github.com/fastfins/fastfins.m](https://github.com/fastfins/fastfins.m)
+Download MATLAB code from [fastfins.m](https://github.com/fastfins/fastfins.m).
 
 #### References:
 

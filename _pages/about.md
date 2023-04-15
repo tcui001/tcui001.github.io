@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-**Research:** [Google Scholar](https://scholar.google.com/citations?user=H4x65KoAAAAJ&hl=en), [ORCID](https://orcid.org/0000-0002-4840-8545), [GitHub](https://github.com/tcui001)
+**Research:** [Google Scholar](https://scholar.google.com/citations?user=H4x65KoAAAAJ&hl=en), [ORCID](https://orcid.org/0000-0002-4840-8545), [Code](/code)
 
 computational mathematics, machine learning, inverse problems, numerical analysis, geophysics, and scientific computing
 
