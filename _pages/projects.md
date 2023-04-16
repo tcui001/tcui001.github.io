@@ -2,16 +2,21 @@
 layout: page
 title: research
 permalink: /projects/
-description: under construction
 nav: true
+description: My research interests are broadly in computational mathematics for scientific machine learning and data science. I develop mathematically rigorous computational methods for statistical inverse problems, data assimilation and uncertainty quantification. These methods aim to optimally learn hidden structures and driven factors of complex mathematical models from data for issuing certified model predictions and making risk-averse decisions. 
+
 ---
 
-[Likelihood-informed space](#lis),  [Model reduction](#mor), [Transport maps](#transport), ...
+### Selected research topics {#over}
 
-### overview {#over}
+[likelihood-informed space](#lis), [transport maps](#transport), [model reduction](#mor), ...
 
-### likelihood-informed subspace {#lis}
+#### Likelihood-informed subspace {#lis}
 
-### model reduction {#mor}
+[slides](/assets/pdf/lis-dtu.pdf)
 
-### transport maps {#transport}
+#### Transport maps {#transport}
+
+[slides](/assets/pdf/dirt-hda.pdf)
+
+#### Model reduction {#mor}
