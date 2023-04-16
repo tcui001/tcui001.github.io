@@ -51,3 +51,6 @@ nav: true
 {% reference cui2022unified %}
 
 {% reference zahm2022certified %}
+
+[comment]: <> <img src="/assets/img/1.jpg"  width="400" height="auto">
+[comment]: <> <img src="/assets/img/1.jpg"  width="600" height="300">
