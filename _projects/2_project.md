@@ -1,80 +1,35 @@
 ---
 layout: page
-title: multi-level MCMC and model reduction
-description: multi-level MCMC and model reduction
-img: assets/img/3.jpg
+title: transport maps
+description: 
+img: assets/img/transport-2d.png
 importance: 2
-category: work
+category: transport
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<img src="/assets/img/transport-2d.png"  width="600" height="auto">
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Characterising intractable high-dimensional probability distributions is one of the central tasks in data-science, computational physics, machine learning, and many other disciplines. The start of this dates back to the first general-purpose digital computer ENIAC, on which Metropolis, von Neumann, Ulam and other pioneers invented MCMC to simulate neutron diffusion. MCMC and its variants have become the workhorse for this task since then. The Markov construction makes MCMC methods challenging to parallelise and optimise. Transport maps offer a promising way to overcome MCMC’s limitations using order-preserving transforms that couple complicated target variables with analytically tractable reference variables.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+We work on deep tensor-train and polynomial methods for building Knothe-Rosenblatt (KR) rearrangement [1,2]. This has been applied to build generative models with high-dimensional parameters and data [3], importance sampling for simulation data-driven rare events [4], and sequential learning in state-space models [5]. See [my presentation at the HDA workshop](/assets/pdf/dirt-hda.pdf) for some of these works. 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+We also extended the [Stein variational transport maps](https://proceedings.neurips.cc/paper/2016/hash/b3ba8f1bee1238a2f37603d90b58898d-Abstract.html) of Liu and Wang by introducing [Newton-type training algorithms](https://arxiv.org/abs/1806.03085) and using LIS methods to design the reproducing kernels [6]. We developed optimisation-based transport maps for infinite-dimensional hierarchical inverse problems [7,8].
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+[slides](/assets/pdf/dirt-hda.pdf)
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+<sub>[1] {% reference cui2022deep %}</sub>
 
+<sub>[2] {% reference cui2023self %}</sub>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<sub>[3] {% reference cui2023deep %}</sub>
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+<sub>[4] {% reference cui2023scalable %}</sub>
+
+<sub>[5] {% reference zhao2023tensor %}</sub>
+
+<sub>[6] {% reference detommaso2018stein %}</sub>
+
+<sub>[7] {% reference bardsley2020scalable %}</sub>
+
+<sub>[8] {% reference bardsley2021optimization %}</sub>
