@@ -45,7 +45,7 @@ Characterising intractable high-dimensional probability distributions is one of 
 
 We work on deep tensor-train and polynomial methods for building Knothe-Rosenblatt (KR) rearrangement [1,2]. This has been applied to build generative models with high-dimensional parameters and data [3], importance sampling for simulation data-driven rare events [4], and sequential learning in state-space models [5]. See [my presentation at the HDA workshop](/assets/pdf/dirt-hda.pdf) for some of these works. 
 
-We also extended the [Stein variational transport maps](https://proceedings.neurips.cc/paper/2016/hash/b3ba8f1bee1238a2f37603d90b58898d-Abstract.html) of Liu and Wang by introducing Newton-type training algorithms and using LIS methods to design the reproducing kernels [6]. We developed optimisation-based transport maps for infinite-dimensional hierarchical inverse problems [7,8].
+We also extended the [Stein variational transport maps](https://proceedings.neurips.cc/paper/2016/hash/b3ba8f1bee1238a2f37603d90b58898d-Abstract.html) of Liu and Wang by introducing [Newton-type training algorithms](https://arxiv.org/abs/1806.03085) and using LIS methods to design the reproducing kernels [6]. We developed optimisation-based transport maps for infinite-dimensional hierarchical inverse problems [7,8].
 
 [slides](/assets/pdf/dirt-hda.pdf)
 
