@@ -25,21 +25,21 @@ My research interests are broadly in computational mathematics for scientific ma
 We work on *likelihood-informed subspace* (LIS) to identify this subspace for breaking the curse of dimensionality. See [my recent presentation](/assets/pdf/lis-dtu.pdf)for details. For more information, see the work on building dimension-robust MCMC samplers using LIS [1,2], its optimality in linear problems [3,4], and error analysis for general problems [5-8].
 
 
-1. {% reference cui2014likelihood %}
+<sub>[1] {% reference cui2014likelihood %}</sub>
 
-2. {% reference cui2016dimension %}
+<sub>[2] {% reference cui2016dimension %}</sub>
 
-3. {% reference spantini2015optimal %}
+<sub>[3] {% reference spantini2015optimal %}</sub>
 
-4. {% reference spantini2017goal %}
+<sub>[4] {% reference spantini2017goal %}</sub>
 
-5. {% reference cui2021data %}
+<sub>[5] {% reference cui2021data %}</sub>
 
-6. {% reference cui2022unified %}
+<sub>[6] {% reference cui2022unified %}</sub>
 
-7. {% reference zahm2022certified %}
+<sub>[7] {% reference zahm2022certified %}</sub>
 
-8. {% reference cui2022prior %}
+<sub>[8] {% reference cui2022prior %}</sub>
 
 
 ---
