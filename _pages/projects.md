@@ -20,3 +20,5 @@ Selected research topics: [likelihood-informed space](#lis), [transport maps](#t
 [slides](/assets/pdf/dirt-hda.pdf)
 
 ##### **Model reduction** {#mor}
+
+[slides](/assets/pdf/adaptive_rom.pdf)
