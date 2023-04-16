@@ -68,6 +68,20 @@ We also extended the [Stein variational transport maps](https://proceedings.neur
 
 ---
 
-##### **Model reduction** {#mor}
+##### **Model reduction and multilevel methods** {#mor}
 
 [slides](/assets/pdf/adaptive_rom.pdf)
+
+<sub>[1] {% reference cui2015data %}</sub>
+
+<sub>[2] {% reference cui2016scalable %}</sub>
+
+<sub>[3] {% reference peherstorfer2016multifidelity %}</sub>
+
+<sub>[4] {% reference cui2011bayesian %}</sub>
+
+<sub>[5] {% reference cui2019posteriori %}</sub>
+
+<sub>[6] {% reference cui2019multilevel %}</sub>
+
+<sub>[7] {% reference cui2023multilevel %}</sub>
