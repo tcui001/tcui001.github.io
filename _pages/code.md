@@ -12,9 +12,22 @@ nav: true
 
 ##### **DIRT: a deep inverse Rosenblatt transport method** {#dirt}
 
-> ###### DIRT is a MATLAB package that uses functional tensor trains to construct order-preserving, self-reinforced transport maps. Download MATLAB code from [deep-tensor](https://github.com/DeepTransport/deep-tensor). Help files will be updated in May. Examples will be released under [deep-tensor-examples](https://github.com/DeepTransport/deep-tensor-examples) in May.
+> ###### DIRT is a MATLAB package that uses functional tensor trains and sparse polynomials to construct order-preserving, self-reinforced transport maps. The map has a composite form of $$T = T_0 \circ T_1 \circ \cdots \circ T_n$$, in which each layer is a [KR map](/projects/#transport) constructed from a function approximation. Download MATLAB code from [deep-tensor](https://github.com/DeepTransport/deep-tensor). Help files will be updated in May. Examples will be released under [deep-tensor-examples](https://github.com/DeepTransport/deep-tensor-examples) in May.
 
-{:.warning}
+<img src="/assets/img/dirt.png"  width="600" height="auto">
+
+    A simple example. Suppose we have the potential function of the target density
+    $$ \phi(x) := -\log \pi(x) = - 5(\log((1-x_1^2 + 100(x_2-x_1^2)^2) - 3)^2 + \cdots$$ 
+
+    >> phi= @(x) ...; % define potential function
+    >> base = ApproxBases(Legendre(30), BoundedDomain([-4,4]), d); % d = 2, define approximation space
+    >> kr = TTDIRT(phi,base,Tempering1()); % build DIRT using TT
+    >> X = random(kr, 200); % random variable generation (left below)
+    >> X = sobol(kr, 200);  % quasi Monte Carlo sample generation (right below) using Sobol sequence
+
+<img src="/assets/img/rf1.png"  width="200" height="auto">|<img src="/assets/img/rf2.png"  width="200" height="auto">
+
+
 
 **References:**
 
@@ -23,6 +36,8 @@ nav: true
 {% reference cui2023scalable %}
 
 {% reference cui2023deep %}
+
+{% reference cui2023self %}
 
 {% reference zhao2023tensor %}
  
