@@ -16,8 +16,7 @@ nav: true
 
 <img src="/assets/img/dirt.png"  width="600" height="auto">
 
-    A simple example. Suppose we have the potential function of the target density
-    $$ \phi(x) := -\log \pi(x) = - 5(\log((1-x_1^2 + 100(x_2-x_1^2)^2) - 3)^2 + \cdots$$ 
+Suppose the log target density is $$\phi(x) := -\log \pi(x) = - 5(\log((1-x_1^2 + 100(x_2-x_1^2)^2) - 3)^2 + \cdots$$
 
     >> phi= @(x) ...; % define potential function
     >> base = ApproxBases(Legendre(30), BoundedDomain([-4,4]), d); % d = 2, define approximation space
