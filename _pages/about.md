@@ -10,9 +10,9 @@ profile:
   align: right
   image: tcui2.jpg
   address: >
-    <p>Office 328</p>
-    <p>9 Rainforest Walk</p>
-    <p>Monash University, Vic 3800</p>
+    <p>Office 489</p>
+    <p>School of Mathematics and Statistics F07</p>
+    <p>University of Sydney, NSW 2006</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -24,12 +24,12 @@ social: false  # includes social icons at the bottom of the page
 computational mathematics, machine learning, inverse problems, numerical analysis, geophysics, and scientific computing
 
 **Brief Biography:**
-* 2020--present: Senior Lecturer, School of Mathematics, Monash University
-* 2016--2020: Lecturer, School of Mathematics, Monash University
+* 2023--present: Senior Lecturer, School of Mathematics and Statistics, University of Sydney
+* 2016--2023: Lecturer, Senior Lecturer, School of Mathematics, Monash University
 * 2015--2016: Senior Research Engineer, ExxonMobil Upstream Research Company
-* 2012--2015: Postdoc Associate, Aerospace Computational Design Laboratory (ACDL), Massachusetts Institute of Technology
+* 2012--2015: Postdoc Associate, Massachusetts Institute of Technology
 
-**Contact:** tiangang(dot)cui(at)monash(dot)edu 
+**Contact:** tiangang(dot)cui(at)sydney(dot)edu(dot)au 
 
 [comment]: <> With backgrounds in applied mathematics and engineering, my research interest lies in the algorithmic interface between computational mathematics and statistical learning, with a specific My research focuses on advancing foundational computational methodologies for  uncertainty quantification, statistical learning, and inverse problems. focuses on integrating computational mathematics, statistical learning, and mathematical modelling for issuing credible model-based predictions and decisions. I develop scalable statistical inference tools for computational inverse problems and uncertainty quantification. I also develop multilevel methods and model reduction methods that enable the deployment of statistical learning algorithms in large-scale real-world applications such as subsurface flows and geophysics.
 
