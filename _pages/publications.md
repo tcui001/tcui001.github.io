@@ -10,17 +10,7 @@ yearsp: [2024, 2023, 2022, 2021, 2020, 2019, 2018]
 yearso: [2019, 2011]
 nav: true
 ---
-[preprints](#pre), [journal articles](#journal), [book chapters](#book), [conference articles](#conf), and [other works](#other) in reversed chronological order. 
-
-### preprints {#pre}
-
-<div class="publications">
-
-{% for y in page.yearsp %}
-  {% bibliography -f papers -q @techreport[year={{y}}]* %}
-{% endfor %}
-
-</div>
+[journal articles](#journal), [book chapters](#book), [conference articles](#conf), [preprints](#pre), and [other works](#other) in reversed chronological order. 
 
 ### journal articles {#journal}
 
@@ -51,6 +41,16 @@ nav: true
 {% for y in page.yearsc %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @inproceedings[year={{y}}]* %}
+{% endfor %}
+
+</div>
+
+### preprints {#pre}
+
+<div class="publications">
+
+{% for y in page.yearsp %}
+  {% bibliography -f papers -q @techreport[year={{y}}]* %}
 {% endfor %}
 
 </div>
