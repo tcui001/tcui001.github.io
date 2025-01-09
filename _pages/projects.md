@@ -8,7 +8,7 @@ description:
 
 My research interests are broadly in computational mathematics for scientific machine learning and data science. I develop mathematically rigorous computational methods for statistical inverse problems, data assimilation and uncertainty quantification. These methods aim to optimally learn hidden structures and driven factors of complex mathematical models from data for issuing certified model predictions and making risk-averse decisions.
  
-> ###### Selected research topics: [likelihood-informed space](#lis), [transport maps](#transport), [model reduction](#mor), ...
+> ###### Selected research topics (outdated): [likelihood-informed space](#lis), [transport maps](#transport), [model reduction](#mor), ...
 
 ##### **Likelihood-informed subspace** {#lis}
 
@@ -58,7 +58,7 @@ We also extended the [Stein variational transport maps](https://proceedings.neur
 
 <sub>[4] {% reference cui2023scalable %}</sub>
 
-<sub>[5] {% reference zhao2023tensor %}</sub>
+<sub>[5] {% reference zhao2024tensor %}</sub>
 
 <sub>[6] {% reference detommaso2018stein %}</sub>
 
@@ -84,4 +84,4 @@ We also extended the [Stein variational transport maps](https://proceedings.neur
 
 <sub>[6] {% reference cui2019multilevel %}</sub>
 
-<sub>[7] {% reference cui2023multilevel %}</sub>
+<sub>[7] {% reference cui2024multilevel %}</sub>
